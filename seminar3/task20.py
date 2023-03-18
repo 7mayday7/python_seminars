@@ -42,4 +42,4 @@ for i in word:
     elif i.upper() in list7:
         score += 10
 
-print(f'Количество очков: {score}')
+print(f'Количество очков → {score}')
