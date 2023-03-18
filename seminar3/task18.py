@@ -14,9 +14,9 @@ print(mas)
 
 number = int(input('Число: '))
 
-closest = mas[0]
+nearest_element = mas[0]
 for i in range(1, number_of_items):
-    if abs(mas[i] - number) < abs(closest - number):
-        closest = mas[i]
+    if abs(mas[i] - number) < abs(nearest_element - number):
+        nearest_element = mas[i]
 
-print("Ближайший элемент:", closest)
+print(f"Ближайший элемент → {nearest_element}")
